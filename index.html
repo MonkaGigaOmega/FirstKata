@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header">
+        <!-- Часть хедера которая всегда слева -->
+        <div class="header__left">
+             <!-- Кнопка с бургером -->
+            <button type="button" class="header__button header-left__header-button"> 
+                <img class="header__icon" src="./icons/burger-button.svg" alt="Меню">
+                </button>
+                 <!-- Логотип в блоке с помощью которого сделал серую палочку слева от него -->
+                <div class="header__logo-wrapper">
+                    <div class="header__logo">
+                        <img src="icons/Group.png" alt="Логотип CPS"> 
+                    </div>
+                </div>
+                    </div>
+ <!-- Часть хедера которая всегда справа -->
+  <div class="header__right">
+    <!-- Дополнительные кнопки для планшета -->
+    <button type="button" class="header__button extra">
+        <img class="header__icon" src="./icons/tele.svg" alt="Позвонить"> <!--Вообще в свг "иконка телефона", но наверное правильно написать что делает эта картинка-кнопка-->
+    </button>
+    <button type="button" class="header__button extra">
+        <img class="header__icon" src="./icons/message.svg" alt="Сообщения">
+    </button>
+    <button type="button" class="header__button extra">
+        <img class="header__icon" src="./icons/human.svg" alt="Профиль">
+    </button>
+ <!-- Блок чтоб создать серую палку рядом с иконкой ключа и отвертки -->
+<div class="header__pupa-wrapper">
+    <button type="button" class="header__button" >
+        <img class="header__icon" src="./icons/pupa.svg" alt="Оставить заявку">
+    </button>
+</div>
+<button type="button" class="header__button header-right__header-button button" >
+    <img class="header__icon" src="./icons/lupa.png" alt="Статус">
+</button>
+  </div>
+    </header>
+
+    <!-- Основное содержание -->
+    <main class="main">
+        <!--Обертка чтоб сделать бирюзовую палочку слева от заголовка на границе окна -->
+        <div class="main__title-wrapper">
+            <h2 class="main__title">
+                Услуги и сервисы
+            </h2>
+            <!--Блок с кнопками-->
+           <div class="main__actions">
+            <label class="main__action">Оставить заявку<button  class="main__button">
+                <img class="main__icon" src="./icons/pupa.svg" alt="Оставить заявку">
+            </button>
+            </label>
+        
+            
+            <label class="main__action">Статус ремонта  <button class="main__button">
+                <img id="status" class="main__icon" src="./icons/lupa.png" alt="Статус ремонта">
+            </button>
+            </label>
+    
+        </div>
+        </div>
+<div class="slidemenu">
+<nav class="slidemenu__nav">
+    <input type="radio" id="button1" name="buttons" checked>
+     <label for="button1" class="slidemenu__button">Ремонтируемые устройства</label>      
+
+
+     <input type="radio" id="button2" name="buttons" >
+     <label for="button2" class="slidemenu__button">Дополнительные услуги</label>      
+
+     <input type="radio" id="button3" name="buttons" >
+     <label for="button3" class="slidemenu__button">Цены на услуги</label>      
+
+     <input type="radio" id="button4" name="buttons" >
+     <label for="button4" class="slidemenu__button">Адреса сервисных центров</label>      
+
+     <input type="radio" id="button5" name="buttons" >
+     <label for="button5" class="slidemenu__button">Специальные цены</label>      
+</nav>
+</div>
+<p class="review">Отзывы</p>
+<div class="content"><!--Блок с текстом и фото-->
+<div class="content__text"><!-- Текстовый блок -->
+    <p class="content__paragraph">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+    <div class="content__paragraph-wrapper"> <!--Обертка чтоб скрывать на экране телефона-->
+    <p class="content__paragraph">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера.</p>
+</div>
+<div class="content__more"> <!-- Кнопка "Читать далее" -->
+    <img src="./icons/str.svg" alt="Стрелка вниз" class="content__icon">
+    <button type="button" class="content__button">
+        Читать далее
+    </button>  
+</div>
+</div>
+<div class="content__photo">
+<img  src="./images/Picture Copy.png" alt="CPS" class="content__image">
+</div>
+    </div>
+    </main>
+    <footer>
+<!--На макете нет подвала-->
+    </footer>
+</body>
+</html>
