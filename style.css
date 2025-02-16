@@ -70,7 +70,7 @@ border-bottom:1px solid #41F6D7;
 .slidemenu__button {
     background-color:#F8F8F8;
     color:#7E7E82;
-    padding:5px 5px 0 5px;
+    padding:7px 7px 2px 7px;
     border: none;
     height:30px;
     min-width:143px;
@@ -86,7 +86,7 @@ input[type="radio"]:checked + label{
     height:30px;
    min-width:143px;
     gap:5px;
-
+    text-align: center;
     flex-shrink: 0;
 }
 .slidemenu__nav {
@@ -297,8 +297,8 @@ margin-bottom: 8px;
 }
 
     .main__action {
-        display: flex; /* Используем Flexbox для выравнивания */
-        align-items: center; /* Выравниваем элементы по вертикали */
+        display: flex;
+        align-items: center; 
         gap: 10px; 
 
 }
